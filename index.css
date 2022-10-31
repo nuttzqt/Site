@@ -50,3 +50,9 @@ footer p {
     text-align: center;
 
 }
+
+section {
+    margin: 20px;
+    display: flexbox;
+   
+}
