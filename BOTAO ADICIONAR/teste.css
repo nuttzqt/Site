@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  #item-input {
+    max-width: 300px;
+    background: rgb(196, 118, 176);
+  }
+  .delete-button {
+    color: red;
+  }
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    background: rgb(75, 75, 111);
+  }
+  
+  #add-button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 300px;
+    background: purple;
+    color: white;
+    padding: 42px;
+    border-radius: 12px;
+  }
+  
+  #list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 400px;
+    padding: 22px;
+    border-radius: 12px;
+  }
